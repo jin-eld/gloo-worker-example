@@ -1,0 +1,2 @@
+[alias]
+web-build = ["run", "--bin", "web-build"]

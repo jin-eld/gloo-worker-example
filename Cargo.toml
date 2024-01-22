@@ -1,0 +1,14 @@
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+publish = false
+rust-version = "1.73.0"
+
+[workspace]
+members = [
+    "bin/web-build",
+    "lib/shared",
+    "lib/controller",
+    "lib/worker"
+]
+resolver = "2"
